@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Background: Premium Cool Grey */
+    --background: 210 20% 96%;
+    /* Primary Text: Deep Slate Grey */
+    --foreground: 215 25% 15%;
+    
+    /* Sections/Cards: Pure White for clean separation */
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 15%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 15%;
+    
+    /* Signature Color: #00e0ff */
+    --primary: 187 100% 50%;
+    --primary-foreground: 215 25% 10%;
+    
+    --secondary: 210 15% 92%;
+    --secondary-foreground: 215 25% 20%;
+    
+    --muted: 210 15% 90%;
+    --muted-foreground: 215 15% 45%;
+    
+    --accent: 187 100% 96%;
+    --accent-foreground: 187 100% 30%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    
+    --border: 215 15% 88%;
+    --input: 215 15% 88%;
+    --ring: 187 100% 50%;
+    
+    --radius: 1.5rem;
+  }
+  .dark {
+    --background: 215 25% 7%;
+    --foreground: 0 0% 98%;
+    
+    --card: 215 25% 10%;
+    --card-foreground: 0 0% 98%;
+    
+    --popover: 215 25% 10%;
+    --popover-foreground: 0 0% 98%;
+    
+    --primary: 187 100% 50%;
+    --primary-foreground: 215 25% 10%;
+    
+    --secondary: 215 20% 15%;
+    --secondary-foreground: 0 0% 98%;
+    
+    --muted: 215 20% 15%;
+    --muted-foreground: 215 10% 65%;
+    
+    --accent: 187 100% 15%;
+    --accent-foreground: 187 100% 50%;
+    
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 0 0% 98%;
+    
+    --border: 215 20% 18%;
+    --input: 215 20% 18%;
+    --ring: 187 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline tracking-tight text-foreground font-bold;
+  }
+}
+
+@layer utilities {
+  .text-signature {
+    @apply text-primary;
+  }
+}

@@ -1,0 +1,71 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-bg",
+      "description": "Premium Satish Refrigeration Hero AC",
+      "imageUrl": "https://res.cloudinary.com/dh51trsfh/image/upload/v1780880982/Satish_Ref_AC_ikocif.jpg",
+      "imageHint": "air conditioner"
+    },
+    {
+      "id": "ac-service",
+      "description": "Premium Air Conditioning Service",
+      "imageUrl": "https://res.cloudinary.com/dh51trsfh/image/upload/v1780882334/AC1_cbmyv9.jpg",
+      "imageHint": "AC repair"
+    },
+    {
+      "id": "refrigeration",
+      "description": "Expert Refrigerator Repair",
+      "imageUrl": "https://res.cloudinary.com/dh51trsfh/image/upload/v1780882334/Refrigerator_mgrjck.jpg",
+      "imageHint": "refrigerator"
+    },
+    {
+      "id": "washing-machine",
+      "description": "Washing Machine Restoration",
+      "imageUrl": "https://res.cloudinary.com/dh51trsfh/image/upload/v1780882336/Washing_machine_tveayw.jpg",
+      "imageHint": "washing machine"
+    },
+    {
+      "id": "pcb-repair",
+      "description": "Advanced Air Conditioner PCB Restoration Lab",
+      "imageUrl": "https://res.cloudinary.com/dh51trsfh/image/upload/v1780881321/PCB_n0wfyj.jpg",
+      "imageHint": "PCB electronics"
+    },
+    {
+      "id": "ro-system",
+      "description": "Professional RO Water Purification",
+      "imageUrl": "https://res.cloudinary.com/dh51trsfh/image/upload/v1780882334/ro_pquc9q.jpg",
+      "imageHint": "water purifier"
+    },
+    {
+      "id": "ups-system",
+      "description": "Heavy Duty UPS & Battery Systems",
+      "imageUrl": "https://res.cloudinary.com/dh51trsfh/image/upload/v1780882334/ups_z6v72q.jpg",
+      "imageHint": "UPS battery"
+    },
+    {
+      "id": "about-journey",
+      "description": "Our Engineering Team",
+      "imageUrl": "https://res.cloudinary.com/dh51trsfh/image/upload/v1780883867/Engg_erlen6.jpg",
+      "imageHint": "engineers team"
+    },
+    {
+      "id": "services-header",
+      "description": "Service Engineers at Work",
+      "imageUrl": "https://res.cloudinary.com/dh51trsfh/image/upload/v1780883867/Service_engineers_dfcynf.jpg",
+      "imageHint": "service engineers"
+    },
+    {
+      "id": "sales-header",
+      "description": "Original Spares Inventory",
+      "imageUrl": "https://res.cloudinary.com/dh51trsfh/image/upload/v1780883867/spares_bxtpkj.jpg",
+      "imageHint": "spare parts"
+    },
+    {
+      "id": "pcb-header",
+      "description": "PCB Specialist Workstation",
+      "imageUrl": "https://res.cloudinary.com/dh51trsfh/image/upload/v1780883867/pcb2_ney6sk.jpg",
+      "imageHint": "PCB repair"
+    }
+  ]
+}

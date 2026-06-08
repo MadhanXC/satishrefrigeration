@@ -1,0 +1,37 @@
+
+{
+  "entities": {
+    "Enquiry": {
+      "title": "Enquiry",
+      "description": "A customer service or product enquiry.",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "description": "Full name of the customer" },
+        "phone": { "type": "string", "description": "Contact phone number" },
+        "email": { "type": "string", "description": "Contact email address" },
+        "category": { 
+          "type": "string", 
+          "enum": ["repair", "sales", "spares", "pcb"],
+          "description": "Type of service or product enquiry"
+        },
+        "product": { 
+          "type": "string",
+          "enum": ["ac", "fridge", "washing", "ro", "ups"],
+          "description": "Appliance type"
+        },
+        "message": { "type": "string", "description": "Detailed requirement or issue description" },
+        "createdAt": { "type": "string", "format": "date-time", "description": "Timestamp of submission" }
+      },
+      "required": ["name", "phone", "email", "category", "product"]
+    }
+  },
+  "auth": {
+    "providers": []
+  },
+  "firestore": {
+    "/enquiries/{enquiryId}": {
+      "schema": "Enquiry",
+      "description": "Collection of customer enquiries"
+    }
+  }
+}

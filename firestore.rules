@@ -1,0 +1,15 @@
+rules_version = '2';
+
+// Firestore Security Rules - Updated to ensure public creation of enquiries
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Allow anyone to submit an enquiry
+    match /enquiries/{enquiryId} {
+      // Create operation is allowed for everyone to support public lead capture
+      allow create: if true;
+      
+      // Reading, updating, or deleting is strictly forbidden to protect customer privacy
+      allow read, update, delete: if false;
+    }
+  }
+}
